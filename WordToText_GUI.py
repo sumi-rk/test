@@ -54,3 +54,4 @@ button = tkinter.Button(text="実行ボタン",command=button_click)
 button.place(x=10, y=130)
 
 root.mainloop()
+aa
