@@ -14,10 +14,6 @@ input_label.place(x=10, y=70)
 input_box = tkinter.Entry(width=40)
 input_box.place(x=10, y=100)
 
-#def button_click():
-    #input_value = input_box.get()
-    #essagebox.showinfo("クリックイベント",input_value + "が入力されました。")
-
 def button_click():
 	wa = win32com.client.gencache.EnsureDispatch("Word.Application")
 	input_path = input_box.get()
